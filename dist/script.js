@@ -41,10 +41,10 @@ const html = document.querySelector('html');
 darkToggle.addEventListener('click', function () {
     if (darkToggle.checked) {
         html.classList.add('dark');
-        localStorage.theme = 'dark'
+        localStorage.theme = 'dark';
     } else {
         html.classList.remove('dark');
-        localStorage.theme = 'light'
+        localStorage.theme = 'light';
     }
 })
 
